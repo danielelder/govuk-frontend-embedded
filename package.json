@@ -1,0 +1,19 @@
+{
+  "name": "downloadable-html-document",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server",
+    "build": "npm run colour && npm run black-and-white",
+    "colour": "sass scss/colour.scss css/embed-colour.css --no-source-map --style compressed",
+    "black-and-white": "sass scss/black-and-white.scss css/embed-black-and-white.css --no-source-map --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "govuk-frontend": "^4.6.0",
+    "http-server": "^14.1.1",
+    "sass": "^1.62.1"
+  }
+}
