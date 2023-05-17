@@ -91,8 +91,6 @@ The following components have been modified to remove interactivity but are stil
 
 To test just open the file in the browser, no server required.
 
-```
-
 ## Production use
 
 This project only serves as an example of how to implement embedded css into a webpage page.
