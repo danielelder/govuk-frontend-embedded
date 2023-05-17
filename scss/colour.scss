@@ -6,19 +6,18 @@ $govuk-include-default-font-face: false;
 @import "../node_modules/govuk-frontend/govuk/objects/all";
 
 // Restrict set of component to only include download approved / printable
-@import "../node_modules/govuk-frontend/govuk/components/button/index";
-@import "../node_modules/govuk-frontend/govuk/components/details/index";
-@import "../node_modules/govuk-frontend/govuk/components/footer/index";
-@import "../node_modules/govuk-frontend/govuk/components/header/index";
-@import "../node_modules/govuk-frontend/govuk/components/inset-text/index";
-@import "../node_modules/govuk-frontend/govuk/components/notification-banner/index";
-@import "../node_modules/govuk-frontend/govuk/components/panel/index";
-@import "../node_modules/govuk-frontend/govuk/components/phase-banner/index";
-@import "../node_modules/govuk-frontend/govuk/components/tag/index";
-@import "../node_modules/govuk-frontend/govuk/components/skip-link/index";
-@import "../node_modules/govuk-frontend/govuk/components/summary-list/index";
-@import "../node_modules/govuk-frontend/govuk/components/table/index";
-@import "../node_modules/govuk-frontend/govuk/components/warning-text/index";
+@import "../node_modules/govuk-frontend/govuk/components/details";
+@import "../node_modules/govuk-frontend/govuk/components/footer";
+@import "../node_modules/govuk-frontend/govuk/components/header";
+@import "../node_modules/govuk-frontend/govuk/components/inset-text";
+@import "../node_modules/govuk-frontend/govuk/components/notification-banner";
+@import "../node_modules/govuk-frontend/govuk/components/panel";
+@import "../node_modules/govuk-frontend/govuk/components/phase-banner";
+@import "../node_modules/govuk-frontend/govuk/components/tag";
+@import "../node_modules/govuk-frontend/govuk/components/skip-link";
+@import "../node_modules/govuk-frontend/govuk/components/summary-list";
+@import "../node_modules/govuk-frontend/govuk/components/table";
+@import "../node_modules/govuk-frontend/govuk/components/warning-text";
 
 @import "../node_modules/govuk-frontend/govuk/utilities/all";
 @import "../node_modules/govuk-frontend/govuk/overrides/all";

@@ -1,19 +1,17 @@
 {
-  "name": "downloadable-html-document",
+  "name": "govuk-frontend-embedded",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generates a stylesheet for embedding into webpages that are intended to be downloaded and saved on a user's computer",
   "main": "index.js",
   "scripts": {
-    "start": "npx http-server",
     "build": "npm run colour && npm run black-and-white",
     "colour": "sass scss/colour.scss css/embed-colour.css --no-source-map --style compressed",
     "black-and-white": "sass scss/black-and-white.scss css/embed-black-and-white.css --no-source-map --style compressed"
   },
-  "author": "",
+  "author": "Dan Elder",
   "license": "ISC",
   "dependencies": {
     "govuk-frontend": "^4.6.0",
-    "http-server": "^14.1.1",
     "sass": "^1.62.1"
   }
 }
