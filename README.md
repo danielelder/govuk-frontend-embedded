@@ -1,6 +1,6 @@
 # govuk-frontend-embedded
 
-Stylesheet for embedding into webpages that are intended to be downloaded and saved on a user's computer.
+This is a proof of concept for creating stylesheets that can be embeded into webpages so they can be downloaded and saved on a user's computer.
 
 > Current govuk-frontend version: **4.6.0**
 
@@ -8,6 +8,18 @@ Downloaded html documents should have zero dependancies, the following changes h
 
 * font-face for GDS Transport removed
 * Crown logo in footer is embedded using base-64
+
+## Options
+
+There are 2 versions of the CSS, a colour version and a black and white version.
+
+### Colour version
+
+This is a like-for-like version of the govuk-frontend styles created as a standalone file.
+
+### Black and white version
+
+The black and white version is the colour css file with some overrides to make it render the same as the printed output. 
 
 ## Supported components
 
@@ -26,7 +38,7 @@ A subset of the GDS components have been included that are `print safe`, meaning
 * table
 * warning-text
 
-The following components have been removed:
+The following component styles have been removed:
 
 * Accordion
 * Back link
@@ -71,9 +83,18 @@ The following components have been modified to remove interactivity but are stil
 
     </style>
 </head>
+```
 
-3. Paste in the contents of the `css/embed-colour.css` or `css/embed-black-and-white.css` file depending on your requirements.
+3. Paste in the contents of the `css/embed-colour.css` or `css/embed-black-and-white.css`.
 
-4. Create your page - Add a header, footer and the required content. To test just open the file in the browser, no server required.
+4. Create your page - Add a header, footer and any required content. 
+
+To test just open the file in the browser, no server required.
 
 ```
+
+## Production use
+
+This project only serves as an example of how to implement embedded css into a webpage page.
+
+Projects should implement there own solution and not rely on this repo being kept up to date.
