@@ -95,4 +95,4 @@ To test just open the file in the browser, no server required.
 
 This project only serves as an example of how to implement embedded css into a webpage page.
 
-Projects should implement there own solution and not rely on this repo being kept up to date.
+Projects should implement their own solution and not rely on this repo being kept up to date.
